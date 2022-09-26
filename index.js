@@ -2,7 +2,7 @@ const http = require("http")
 const express = require("express");
 const cors = require("cors");
 const socketIO = require("socket.io");
-const port =process.env.port;
+const port =process.env.PORT;
 const users=[{}]
 
 const app = express()
